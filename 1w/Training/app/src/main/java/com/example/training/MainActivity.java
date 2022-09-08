@@ -15,17 +15,18 @@ public class MainActivity extends AppCompatActivity {
         /**
          * With Layout XML
          */
-//        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);
 
         /**
          * Without Layout XML
          */
-        LinearLayout linearLayout = new LinearLayout(this);
-        TextView textView = new TextView(this);
-        textView.setText("이름: 홍길동\n프로그래밍 능력: Java(중), Python(상)\n국적: 대한민국\n연락처: gdhong@example.com\n");
-        linearLayout.addView(textView);
-
-        setContentView(linearLayout);
+//        LinearLayout linearLayout = new LinearLayout(this);
+//        TextView textView = new TextView(this);
+//        textView.setPadding(20,20, 20, 20);
+//        textView.setText("이름: 홍길동\n프로그래밍 능력: Java(중), Python(상)\n국적: 대한민국\n연락처: gdhong@example.com");
+//        linearLayout.addView(textView);
+//
+//        setContentView(linearLayout);
 
     }
 }
